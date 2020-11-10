@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h1>This is contant page</h1>
+
+  <form action="/signup" method="post">
+    <fieldset>
+      <legend>Basic info:</legend>
+      <p>
+        <label> Title </label><br>
+        <label>
+          <input type="radio" name="title" value="mr">
+          Mr
+
+        </label>
+        <label>
+          <input type="radio" name="title" value="mrs">
+          Mrs
+        </label>
+        <label>
+          <input type="radio" name="title" value="miss">
+          Miss
+
+
+        </label>
+
+      </p>
+      <p>
+
+        <label> Frist name </label><br>
+        <input type="text" name="Frist_name">
+
+
+
+      </p>
+      <p>
+        <label> Last Name </label><br>
+        <input type="text" name="last_name">
+
+      </p>
+
+    </fieldset>
+    <fieldset>
+      <legend>Contact Info:</legend <p>
+      <label>Email</label><br>
+      <input type="email" name="email" required>
+
+      </p>
+      <p>
+        <label>Phone number</label><br>
+        <input type="tell" name="Phone">
+
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Others Info:</legend>
+      <p>
+        <label>Password</label><br>
+        <input type="password" name="password">
+
+      </p>
+      <label for="img">select photo:</label>
+      <input type="file" id="img" name="img" accept="image/*">
+      <p>
+        <label>Country</label><br>
+        <select>
+          <option>China</option>
+          <option>India</option>
+          <option>United states</option>
+          <option>Indonesia</option>
+          <option>Brazil</option>
+
+        </select>
+      </p>
+      <p>
+
+        <label for="txtNote">Comment</label><br>
+        <textarea id="txtNote" rows="8" cols="80" </<textarea name="name" rows="8" cols="80"></textarea>
+
+
+      </p>
+    </fieldset>
+    <p>
+      <label>
+        <input type="checkbox" value="terms">
+        i agree to the <a href="/terms">terms and conditions</a>
+
+
+      </label>
+
+
+    </p>
+    <p>
+      <button> Sing up</button>
+      <button type="reset"> Reset from</button>
+
+    </p>
+
+  </form>
+
+
+
+</body>
+
+</html>
